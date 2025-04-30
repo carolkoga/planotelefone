@@ -20,7 +20,7 @@ public class planotelefone{
             valorExtra = minExtra*2;
             valorTotal = valorPlano + valorExtra;
             System.out.println("O valor total da conta é: " + valorTotal);
-            System.out.println(valorExtra + " reais foram cobrados a mais por conta dos minutos extras.");
+            System.out.printf("%d reais foram cobrados a mais por conta dos minutos extras.\n", valorExtra);
             System.out.println(minExtra + " minutos foram cobrados a mais por conta dos minutos extras.");
         } else {
             valorTotal = valorPlano;
